@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: rgb(193, 199, 246);
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  /* text-align: center;
+  ne stavljamo na ceo body jer 
+  vrlo verovatno nam nece svi elementi na
+  stranici biti centrirani
+  
+  */
+  background-color: aqua;
+}
+
+h1 {
+  font-size: 40px;
+  color: black;
+}
+
+h2 {
+  font-size: 36px;
+  color: #121113;
+  margin: 0 10%;
+  padding: 50px 0;
+}
+
+h3 {
+  font-size: 32px;
+  color: #121113;
+  margin: 0 10%;
+  padding: 50px 10px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  margin: 20px 10%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.subtitle {
+  background-color: aqua;
+  padding: 12px;
+}
+
+.nav {
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(202, 66, 163);
+  padding: 2px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.hero-image {
+  background-image: url(hero-image.jpg);
+  height: 500px;
+  background-color: aqua;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-container {
+  margin: 24px 12px;
+}
+
+.card {
+  display: inline-block;
+  background-color: rgb(46, 193, 238);
+  width: 40%;
+  text-align: justify;
+  vertical-align: top;
+  /*da poravnamo kartice*/
+
+}
+
+.card-reserve {
+  /* display: inline-block;  */
+
+  
+  background-color: rgb(62, 62, 218);
+  width: 80%;
+  /* text-align: center; */
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.reserve {
+  text-align: center;
+}
+
+form {
+  padding: 12px 36px;
+  margin: 12px 12px;
+  color: white;
+}
+
+.box {
+  padding: 12px 24px;
+  border-radius: 12px;
+  margin: 0;
+  width: 100%;
+
+}
+
+.button {
+  padding: 12px 24px;
+  border-radius: 12px;
+  background-color: #121113;
+  color: white;
+}
+
+.textarea {
+  padding: 12px 24px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+}
