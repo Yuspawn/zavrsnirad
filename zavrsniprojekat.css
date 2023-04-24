@@ -34,12 +34,6 @@ h3 {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  /* text-align: center;
-  ne stavljamo na ceo body jer 
-  vrlo verovatno nam nece svi elementi na
-  stranici biti centrirani
-  
-  */
   background-color: aqua;
 }
 
@@ -91,6 +85,15 @@ p {
 .nav-item {
   display: inline-block;
   margin-left: 12px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background-color: #121113;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: rgb(62, 62, 218);
 }
 
 .hero-image {
@@ -111,17 +114,11 @@ p {
   width: 40%;
   text-align: justify;
   vertical-align: top;
-  /*da poravnamo kartice*/
-
 }
 
 .card-reserve {
-  /* display: inline-block;  */
-
-  
   background-color: rgb(62, 62, 218);
   width: 80%;
-  /* text-align: center; */
   margin: 0 auto;
   padding: 16px;
 }
